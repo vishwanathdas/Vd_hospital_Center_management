@@ -1,0 +1,25 @@
+{% extends 'hospital/homebase.html' %}
+
+
+{% block content %}
+{% load static %}
+
+<br>
+<br>
+
+<div class="jumbotron" style="margin-bottom:0px;">
+  <div class="logo">
+    <center><img src="./static/images/fever.png"></center>
+   </div>
+  <h1 class="display-4" style="text-align:center;"><b>Hello, Patient</b></h1>
+  <p class="lead">Welcome to VD hospital Center.</p>
+  <hr class="my-4">
+
+  <p class="lead">
+    <a class="btn btn-danger btn-lg" href="/patientsignup" role="button">Register Your Account</a>
+    <a class="btn btn-success btn-lg" href="/patientlogin" role="button">Login</a>
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+  </p>
+</div>
+
+{% endblock content %}

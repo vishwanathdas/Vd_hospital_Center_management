@@ -1,0 +1,23 @@
+{% extends 'hospital/homebase.html' %}
+
+{% block content %}
+
+<br>
+<br>
+
+<div class="jumbotron" style="margin-bottom:0px;">
+  <div class="logo">
+    <center><img src="./static/images/adm.png"></center>
+   </div>
+  <h1 class="display-4" style="text-align:center;"><b>Hello, Admin</b></h1>
+  <p class="lead">Welcome to VD hospital Center.</p>
+  <hr class="my-4">
+ 
+  <p class="lead">
+    <a class="btn btn-danger btn-lg" href="/adminsignup" role="button">Sign Up</a>
+    <a class="btn btn-success btn-lg" href="/adminlogin" role="button">Login</a>
+    <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+  </p>
+</div>
+
+{% endblock content %}
